@@ -1,35 +1,35 @@
 body {
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color:#222222;
-  }
+    background-color: #222222;
+}
 
-.input-container { 
-    color:rgb(211, 192, 24);
-    font-size: 50px;
-    position: center;
+.input-container {
+    color: rgb(255, 100, 100); /* Changed color to red */
+    font-size: 40px; /* Adjusted font size */
+    text-align: center; /* Centered text */
 }
 
 .input-container:focus-within {
-    font-size: 25px;
+    font-size: 30px; /* Reduced font size when focused */
     transition: 0.2s;
 }
 
 .input-text {
-    width: 30%;
-    padding: 12px 20px;
-    margin: 0px 0;
-    outline:0;
+    width: 50%; /* Increased width */
+    padding: 10px; /* Adjusted padding */
+    margin: 10px 0; /* Adjusted margin */
+    outline: 0;
     border: none;
-    border-bottom: 2px solid rgb(211, 192, 24);
-    background-color:transparent;
-    color:rgb(211, 192, 24);
-    font-size: 50px;
-    position: center;
+    border-bottom: 2px solid rgb(255, 100, 100); /* Changed border color to red */
+    background-color: transparent;
+    color: rgb(255, 100, 100); /* Changed text color to red */
+    font-size: 40px; /* Adjusted font size */
+    text-align: center; /* Centered text */
     transition: 0.2s;
 }
 
@@ -37,20 +37,21 @@ body {
     width: 70%;
     padding: 12px 20px;
     margin: 8px 0;
-    outline:0;
-    border-bottom: 2px solid rgb(211, 192, 24);
-    background-color:transparent;
-    font-size: 75px;
+    outline: 0;
+    border-bottom: 2px solid rgb(255, 100, 100); /* Changed border color to red */
+    background-color: transparent;
+    font-size: 60px; /* Increased font size when focused */
     transition: 0.2s;
 }
 
 .notification-button {
-    color:white;
+    color: white;
     padding: 12px 20px;
-    margin: 8px 0;
-    outline:0;
-    border:none;
-    background-color:cadetblue;
-    font-size:30px;
-    position:center;
+    margin: 20px 0; /* Adjusted margin */
+    outline: 0;
+    border: none;
+    background-color: rgb(255, 100, 100);
+    font-size: 25px; /* Reduced font size */
+    text-align: center; /* Centered text */
+    cursor: pointer; /* Added cursor style */
 }
